@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Globe</title>
+    <link rel="stylesheet" href="dist/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--header section to display the navigation section of the webpage-->
+<header>
+    <nav>
+        <ul>
+            <li>
+                <a href = "">
+                    <div>
+                        <img src ="assets/icons/airplane.svg" alt = "airplane"> 
+                    </div>
+                    <div>Find Flight</div>
+                </a>
+            </li>
+            <li>
+                <a href = "">
+                    <div>
+                        <img src ="assets/icons/Component%2024.svg" alt = "stays"> 
+                    </div>
+                    <div>
+                        Find Stays
+                    </div>
+                </a>
+            </li>
+            <li class = "nav3">
+                <a class="globeBorderNone" href="">
+                    <img src ="assets/Logo.png" alt = "Globe" id = "globe">
+                </a>
+            </li>
+            <li>
+                <a href = "">
+                    <div>
+                        <img src ="assets/icons/heart.svg" alt = "heart"> 
+                    </div>
+                    <div>
+                        Favourites
+                    </div>
+                </a>
+            </li>
+            <li>
+                <div>|
+                </div>
+            </li>
+            <li>
+                <a href = "">
+                    <div>
+                        <img id = "john" src = "assets/images/John.png" alt = "john"> 
+                    </div>
+                    <div>
+                        John D.
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section>
+        <!-- This section provides a various details of the hotel including title, location, reviews, and images of the hotel -->
+        <section class = "page-section" id = "details">
+            <div class = "nav-line">
+                <div class = "nav-line-item">
+                    <a class = "pink" href = "">Turkey </a>
+                    <img class = "arrow" src ="assets/icons/chevron_forward.png" alt = "forward">
+                </div>
+                <div class = "nav-line-item">
+                    <a class = "pink" href = ""> Istanbul</a>
+                    <img class = "arrow" src ="assets/icons/chevron_forward.png" alt = "forward">
+                </div>
+                <div class = "nav-line-item">
+                    <a class href = ""> CVK Park Bosphorus Hotel Istanbul </a>
+                </div>
+            </div>
+            <div class = "hotel-line">
+                <div class = "hotel-name">CVK Park Bosphorus Hotel Istanbul</div>
+                <div class = "stars">
+                    <img src = "assets/icons/Star.svg" alt = "star">
+                    <img src = "assets/icons/Star.svg" alt = "star">
+                    <img src = "assets/icons/Star.svg" alt = "star">
+                    <img src = "assets/icons/Star.svg" alt = "star">
+                    <img src = "assets/icons/Star.svg" alt = "star">
+                </div>
+                <div>5 Star Hotel</div>
+                <div class = "price">
+                    <strong>$240</strong>/night
+                </div>
+            </div>
+            <div>
+                <img src = "assets/icons/Location.svg" alt = "location"> Gümüşsuyu Mah. Inönü Cad. No 8, Istanbul 34437
+            </div>
+            <div class = "display-review">
+                <div>
+                    <button class = "small-btn" type = "button">4.2</button>
+                    <strong>Very Good</strong> 371 Reviews
+                </div>
+                <div class = "share-box">
+                    <div>
+                        <button class = "small-btn" ><img src = "assets/icons/heart2.svg" alt = "heart2"></button>
+                    </div>
+                    <div>
+                        <button class = "small-btn"><img src = "assets/icons/Share.svg"  alt = "share"></button>
+                    </div>
+                    <div>
+                        <button class = "big-btn">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class = "pic-container">
+                <div class = "img1 box">
+                    <img id = "hotel" src = "assets/images/CVKHotel.jpeg" alt = "hotel">
+                </div>
+                <div class = "img2 box">
+                    <img src = "assets/images/CVKView.jpeg"  alt = "hotel-view">
+                </div>
+                <div class = "img3 box">
+                    <img src = "assets/images/CVKRoom1.jpeg"  alt = "room1">
+                </div>
+                <div class = "img4 box">
+                    <img src = "assets/images/CVKRoom2.jpeg" alt = "room2">
+                </div>
+                <div class = "img5 box">
+                    <img src = "assets/images/CVKView.jpeg"  alt = "hotel-view">
+                </div>
+                <div class = "view-all">
+                    <button class = "big-btn" type = "button">View all photos</button>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!-- This section provides the Overview of the hotel including description, and fun activities surrounding the hotel -->
+        <section class = "page-section" id = "overview">
+            <h3>Overview</h3>
+            <p>Located in Taksim Gmsuyu, the heart of Istanbul, the CVK Park Bosphorus Hotel Istanbul has risen from the ashes of the historic Park Hotel,
+                which also served as Foreign Affairs Palace 120 years ago and is hosting its guests by assuming this hospitality mission.
+                With its 452 luxurious rooms and suites, 8500 m2 SPA and fitness area, 18 meeting rooms including 4 dividable ones and
+                3 terraces with Bosphorus view, Istanbuls largest terrace with Bosphorus view (4500 m2) and latest technology infrastructure,
+                CVK Park Bosphorus Hotel Istanbul is destined to be the popular attraction point of the city. Room and suite categories
+                at various sizes with city and Bosphorus view, as well as 68 separate luxury suites, are offered to its special guests
+                as a wide variety of selection.</p>
+            <ul>
+                <li class = "rating">
+                    <h2>4.2</h2>
+                    <div><b>Very Good</b></div>
+                    <div>371 reviews</div>
+                </li>
+                <li>
+                    <img src = "assets/icons/Stars.svg"  alt = "stars">
+                    <div>Near park</div>
+                </li>
+                <li>
+                    <img src = "assets/icons/Stars.svg" alt = "stars">
+                    <div>Near nightlife</div>
+                </li>
+                <li>
+                    <img src = "assets/icons/Stars.svg" alt = "stars">
+                    <div>Near theater</div>
+                </li>
+                <li>
+                    <img src = "assets/icons/Stars.svg" alt = "stars">
+                    <div>Clean hotel</div>
+                </li>
+            </ul>
+        </section>
+        <hr>
+        <!-- The following section consists of the list of available rooms for the hotel-->
+        <section class = "page-section" id = "available-rooms">
+            <h3>Available Rooms</h3>
+            <ul>
+                <li>
+                    <div class = "available-rooms-flex">
+                        <div class = "avr-flex-item">
+                            <div>
+                                <img class = "available-room-img" src = "assets/images/CVKRoom1.jpeg" alt = "room1">
+                            </div>
+                            <div>
+                                Superior Room - 1 double bed or 2 twin beds
+                            </div>
+                        </div>
+                        <div class = "avr-flex-item">
+                            <div class = "price-rooms"><b>$240</b>/night</div>
+                            <button class = "big-btn" type = "button">Book Now</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class = "available-rooms-flex">
+                        <div class = "avr-flex-item">
+                            <div>
+                                <img class = "available-room-img" src = "assets/images/CVKRoom2.jpeg" alt = "room2">
+                            </div>
+                            <div>
+                                Superior Room - City view - 1 double bed or 2 twin beds
+                            </div>
+                        </div>
+                        <div class = "avr-flex-item">
+                            <div class = "price-rooms"><b>$280</b>/night</div>
+                            <button class = "big-btn" type = "button">Book Now</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class = "available-rooms-flex">
+                        <div class = "avr-flex-item">
+                            <div>
+                                <img class = "available-room-img" src = "assets/images/CVKRoom1.jpeg" alt = "room1">
+                            </div>
+                            <div>
+                                Superior Room - City view - 1 double bed or 2 twin beds
+                            </div>
+                        </div>
+                        <div class = "avr-flex-item">
+                            <div class = "price-rooms"><b>$320</b>/night</div>
+                            <button class = "big-btn" type = "button">Book Now</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class = "available-rooms-flex">
+                        <div class = "avr-flex-item">
+                            <div>
+                                <img class = "available-room-img" src = "assets/images/CVKRoom2.jpeg" alt = "room2">
+                            </div>
+                            <div>
+                                Superior Room - City view - 1 double bed or 2 twin beds
+                            </div>
+                        </div>
+                        <div class = "avr-flex-item">
+                            <div class = "price-rooms"><b>$350</b>/night</div>
+                            <button class = "big-btn" type = "button">Book Now</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <hr>
+        <!--This section includes the map adn address of the hotel-->
+        <section  class = "page-section" id = "location">
+            <div class = "location-header">
+                <h3>Location/Map</h3>
+                <button class = "big-btn" type = "button">View on google maps</button>
+            </div>
+            <picture>
+                <iframe id = "map-img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.5558963551566!2d28.98582957567917!3d41.034971071346824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7f1fe239f43%3A0x54477a917ddd623d!2sCVK%20Park%20Bosphorus%20Hotel%20Istanbul!5e0!3m2!1sen!2sus!4v1696280420384!5m2!1sen!2sus"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </picture>
+            <p><img src = "assets/icons/Location.svg" alt = "location"> Gümüşsuyu Mah. Inönü Cad. No 8, Istanbul 34437</p>
+        </section>
+        <hr>
+        <!-- The following section contains a list of amenities provided by the hotel-->
+        <section  class = "page-section" id = "amenities">
+            <div>
+                <h3>Amenities</h3>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <div>
+                            <img src = "assets/icons/swimming-svgrepo-com.svg"  alt = "pool">
+                        </div>
+                        <div>
+                            Outdoor pool
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src = "assets/icons/swimming-svgrepo-com.svg"  alt = "pool">
+                        </div>
+                        <div>
+                            Indoor pool
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src = "assets/icons/spa-svgrepo-com.svg"  alt = "spa">
+                        </div>
+                        <div>
+                            Spa and wellness center
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src = "assets/icons/restaurant-svgrepo-com.svg" alt = "restaurant">
+                        </div>
+                        <div>
+                            Restaurant
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src = "assets/icons/room-service-3-svgrepo-com.svg"  alt = "room-service">
+                        </div>
+                        <div>
+                            Room service
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div>
+                            <img src = "assets/icons/fitness-centre-svgrepo-com.svg" alt = "fitness">
+                        </div>
+                        <div>
+                            Fitness center
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src = "assets/icons/bar-svgrepo-com.svg" alt = "bar">
+                        </div>
+                        <div>
+                            Bar/Lounge
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src = "assets/icons/Wifi.svg" alt = "wifi">
+                        </div>
+                        <div>
+                            Free Wi-Fi
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src = "assets/icons/cafe.svg" alt = "tea">
+                        </div>
+                        <div>
+                            Tea/coffee machine
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href ="">+24 more</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <hr>
+        <!-- Reviews section-->
+        <section  class = "page-section" id = "reviews">
+            <div class = "reviews-header">
+                <h3>
+                    Reviews
+                </h3>
+                <div>
+                    <button class = "big-btn" type = "button">Give your review</button>
+                </div>
+            </div>
+            <div class = "reviews-rating">
+                <div>
+                    <h1>4.2</h1>
+                </div>
+                <div>
+                    <h3>Very Good</h3>
+                    <p>371 verified reviews</p>
+                </div>
+            </div>
+            <hr>
+            <ul>
+                <li>
+                    <div class = "review-element">
+                        <div>
+                            <img class="user" src = "assets/images/Omar.png" alt = "omar">
+                        </div>
+                        <div>
+                            <div>
+                                <p><b>5.0 Amazing</b> | Omar Siphron</p>
+                            </div>
+                            <div>
+                                <p>porttitor ius consul luptatum noluisse suscipit auctor libero dicit eget libero felis elitr sed felis electram wisi tation suas donec lacus atqui penatibus aliquet quas</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src = "assets/icons/flag-svgrepo-com.svg" alt = "flag">
+                        </div>
+                    </div>
+                </li>
+                <hr>
+                <li>
+                    <div  class = "review-element">
+                        <div>
+                            <img class="user" src = "assets/images/Cristofer.png" alt = "cristofer">
+                        </div>
+                        <div>
+                            <div>
+                                <p><b>5.0 Amazing</b>  | Cristofer Ekstrom Bothman</p>
+                            </div>
+                            <div>
+                                <p>porttitor ius consul luptatum noluisse suscipit auctor libero dicit eget libero felis elitr sed felis electram wisi tation suas donec lacus atqui penatibus aliquet quas</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src = "assets/icons/flag-svgrepo-com.svg" alt = "flag">
+                        </div>
+                    </div>
+                </li>
+                <hr>
+                <li>
+                    <div class = "review-element">
+                        <div>
+                            <img class ="user" src = "assets/images/Kaiya.png" alt = "kaiya">
+                        </div>
+                        <div>
+                            <div>
+                                <p><b>5.0 Amazing</b>  | Kaiya Lubin</p>
+                            </div>
+                            <div>
+                                <p>porttitor ius consul luptatum noluisse suscipit auctor libero dicit eget libero felis elitr sed felis electram wisi tation suas donec lacus atqui penatibus aliquet quas</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src = "assets/icons/flag-svgrepo-com.svg" alt = "flag">
+                        </div>
+                    </div>
+                </li>
+                <hr>
+                <li>
+                    <div class = "review-element">
+                        <div>
+                            <img class = "user" src = "assets/images/Erin.png" alt = "erin">
+                        </div>
+                        <div>
+                            <div>
+                                <p><b>5.0 Amazing</b>  | Erin Septimus</p>
+                            </div>
+                            <div>
+                                <p>porttitor ius consul luptatum noluisse suscipit auctor libero dicit eget libero felis elitr sed felis electram wisi tation suas donec lacus atqui penatibus aliquet quas</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src = "assets/icons/flag-svgrepo-com.svg" alt = "flag">
+                        </div>
+                    </div>
+                </li>
+                <hr>
+                <li>
+                    <div class = "review-element">
+                        <div>
+                            <img class = "user" src = "assets/images/Terry.png" alt = "terry">
+                        </div>
+                        <div>
+                            <div>
+                                <p><b>5.0 Amazing</b>  | Terry George</p>
+                            </div>
+                            <div>
+                                <p>porttitor ius consul luptatum noluisse suscipit auctor libero dicit eget libero felis elitr sed felis electram wisi tation suas donec lacus atqui penatibus aliquet quas</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src = "assets/icons/flag-svgrepo-com.svg" alt = "flag">
+                        </div>
+                    </div>
+                </li>
+                <hr>
+            </ul>
+            <div class = "review-pages">
+                <div>
+                    <img class = "arrow" src ="assets/icons/chevron_back.png" alt = "back">
+                </div>
+                <div>
+                    1 of 40
+                </div>
+                <div>
+                    <img class = "arrow" src ="assets/icons/chevron_forward.png" alt = "forward" >
+                </div>
+            </div>
+        </section>
+    </section>
+</main>
+<!-- Footer section-->
+<footer id = "footer">
+    <!--    First section of the footer consists of a form for enabling users to subscribe to the website's newsletter-->
+    <section class = "newsletter-section">
+        <div>
+            <h1>Subscribe Newsletter</h1>
+            <h3>The Travel</h3>
+            <p>Get inspired! Receive travel discounts, tips and behind the scenes stories.</p>
+            <form method ="POST">
+                <input id = "email" name = "email" type="email" placeholder = "Your email address" required>
+                <button type = "submit">Subscribe</button>
+            </form>
+        </div>
+        <div>
+            <img src = "assets/images/newsletter.png" alt = "john">
+        </div>
+    </section>
+    <!--    Second section of the form consists of the social media links, contact information, and other pages/links for exploring the website-->
+    <section class = "contact-section">
+        <section>
+            <div>
+                <div>
+                    <a href = ""><img src ="assets/globe2.png" width = "93px" height = "30px" alt = "Globe"></a>
+                </div>
+                <a href = ""><img src ="assets/icons/facebook-svgrepo-com.svg" alt = "facebook"></a>
+                <a href = ""><img src ="assets/icons/twitter-154-svgrepo-com.svg"  alt = "twitter"></a>
+                <a href = ""><img src ="assets/icons/youtube-play-svgrepo-com.svg" alt = "youtube"></a>
+                <a href = ""><img src ="assets/icons/instagram-svgrepo-com.svg" alt = "instagram"></a>
+            </div>
+            <div class = "contact-details">
+                <ul>
+                    <li>
+                        <h4>Our Destinations</h4>
+                    </li>
+                    <li>
+                        <a href="">Canada</a>
+                    </li>
+                    <li>
+                        <a href="">Alaska</a>
+                    </li>
+                    <li>
+                        <a href="">France</a>
+                    </li>
+                    <li>
+                        <a href="">Ireland</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Our Activities</h4>
+                    </li>
+                    <li>
+                        <a href = "">Northern Lights</a>
+                    </li>
+                    <li>
+                        <a href = "">Cruising & sailing</a>
+                    </li>
+                    <li>
+                        <a href = "">Multi Activities</a>
+                    </li>
+                    <li>
+                        <a href = "">Kayaking</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Travel Blogs</h4>
+                    </li>
+                    <li>
+                        <a href = "">Bali Travel Guide</a>
+                    </li>
+                    <li>
+                        <a href = "">Sri Lanka Guide</a>
+                    </li>
+                    <li>
+                        <a href = "">Peru Travel Guide</a>
+                    </li>
+                    <li>
+                        <a href = "">India Travel Guide</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>About Us</h4>
+                    </li>
+                    <li>
+                        <a href = "">Our Story</a>
+                    </li>
+                    <li>
+                        <a href = "">Work with us</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Contact Us</h4>
+                    </li>
+                    <li>
+                        <a href = "">Our Story</a>
+                    </li>
+                    <li>
+                        <a href = "">Work with us</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </section>
+</footer>
+</body>
+</html>
