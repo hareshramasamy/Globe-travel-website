@@ -1,0 +1,66 @@
+/* CSS Styling for footer sections including newsletter section and Contact section */
+.newsletter-section {
+    background-color: $bg-color-cdeae1;
+    margin: -300px auto 0 auto;
+    width: 84vw;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    top: 150px;
+    h1 {
+        width: 40%;
+        font-weight: 500;
+    }
+    img {
+        width: 400px;
+        position: absolute;
+        bottom: 0;
+        right: 50px;
+    }
+    form {
+        input {
+            width: 450px;
+            border: 0;
+            padding: 15px;
+            margin-right: 5px;
+            color: $bg-color-112211;
+            border-radius: 5px;
+        }
+        button {
+            width: 100px;
+            border: 0;
+            background-color: $bg-color-112211;
+            color: $bg-color-f3f4f3;
+            padding: 15px;
+            margin-right: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            @extend button;
+            background-color: $bg-color-f3f4f3;
+            color: $bg-color-112211;
+        }
+    }
+}
+
+.contact-section {
+    background-color: $bg-color-8dd3bb;
+    section {
+        padding: 200px 0 50px 0;
+        margin: 0 auto;
+        width: 85vw;
+        @include flex-centered($justify-space-between);
+        gap: 50px;
+    }
+    .contact-details {
+        display: flex;
+        gap: 50px;
+        ul {
+            margin: 0;
+            li {
+                margin: 10px 0;
+            }
+        }
+    }
+}

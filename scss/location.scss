@@ -1,0 +1,5 @@
+/* Styling fpr location section */
+#location .location-header {
+    margin: 20px 0;
+    @include flex-centered($justify-space-between);
+}

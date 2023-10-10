@@ -1,0 +1,22 @@
+/* Hotel image specific for the big image in the Details section */
+
+#globe {
+    width: 100px;
+}
+
+#hotel {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#map-img {
+    width: 100%;
+    height: 430px;
+    border: 0;
+}
+
+/* common class created for adjusting the width of the user images*/
+.user {
+    width: 50px;
+}
