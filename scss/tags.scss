@@ -22,7 +22,7 @@ nav {
 }
 
 h3 {
-    font-weight: 600;
+    font-weight:  map-get($map: $fonts-weight, $key: 'bold');
 }
 
 ul {

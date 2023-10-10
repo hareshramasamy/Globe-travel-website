@@ -7,7 +7,7 @@
 
 .price {
     color: $bg-color-ff8682;
-    font-weight: 600;
+    font-weight: map-get($map: $fonts-weight, $key: 'bold');
     align-self: flex-end;
     margin-left: auto;
     strong {
@@ -36,7 +36,7 @@
 }
 
 .price-rooms {
-    font-weight: 500;
+    font-weight:  map-get($map: $fonts-weight, $key: 'semi-bold');
     b {
         font-size: x-large;
     }
@@ -44,7 +44,7 @@
 
 .hotel-name {
     font-family: Montserrat, sans-serif;
-    font-weight: 600;
+    font-weight:  map-get($map: $fonts-weight, $key: 'bold');
     font-size: x-large;
     margin-right: 10px;
 }

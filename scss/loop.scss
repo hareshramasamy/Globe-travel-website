@@ -1,0 +1,10 @@
+$users: 1, 2, 3, 4, 5; // This is a list data type
+/*
+    @each is a control directive that iterates over a list. This loop auto generates user class for adding image width.
+*/
+@each $user in $users {
+    // Interpolation (#{} syntax) is used to insert the value of a variable into a string.
+    .user-#{$user} {
+        width: 50px;
+    }
+}
