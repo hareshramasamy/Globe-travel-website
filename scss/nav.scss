@@ -1,0 +1,53 @@
+/* Navigation section css styling*/
+
+main {
+    background-color: $bg-color-fafbfc;
+    section {
+        margin: 0 auto;
+        width: 85vw;
+        padding-bottom: 200px;
+        padding-top: 70px;
+        section div .pink {
+            color: $bg-color-ff8682;
+        }
+    }
+}
+
+.page-section {
+    padding: 20px 0;
+}
+
+nav ul {
+    @include flex-centered($justify-center);
+    flex-direction: row;
+    margin: 0;
+    gap: 10px;
+    li {
+        text-align: center;
+        div {
+            margin: 2px;
+        }
+        a {
+            color: $bg-color-000000;
+            font-weight: 700;
+            font-size: 0.9rem;
+            padding:20px 0;
+            @include flex-centered($justify-center);
+        }
+        a:hover {
+            border-bottom: 3px solid $bg-color-8dd3bb;
+        }
+    }
+}
+
+#john {
+    width: 20px;
+}
+
+.globeBorderNone:hover {
+    border: none;
+}
+
+.nav3 {
+    flex : 16 4 auto;
+}

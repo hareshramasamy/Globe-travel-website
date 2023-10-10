@@ -1,0 +1,17 @@
+/*CSS for Amenities section*/
+#amenities {
+    li {
+        margin: 0 0 20px 0;
+        font-size: small;
+        font-weight: bold;
+        @include flex-center();
+        a {
+            color: $bg-color-ff8682;
+        }
+    }
+    div {
+        @include flex-center();
+        gap: 300px;
+        margin: 0 5px 0 0;
+    }
+}

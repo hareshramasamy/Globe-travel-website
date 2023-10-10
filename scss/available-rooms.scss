@@ -1,0 +1,25 @@
+/* Css Styling for Available Rooms section */
+#available-rooms {
+    li {
+        div {
+            margin: 10px 0;
+        }
+        .available-rooms-flex {
+            @include flex-centered($justify-space-between);
+            .avr-flex-item {
+                @include flex-center();
+                gap: 10px;
+            }
+        }
+    }
+    li:not(:last-child) {
+        margin: 10px 0;
+        border-bottom: 1px solid $bg-color-d0d4d1;
+    } 
+}
+
+.available-room-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+}
